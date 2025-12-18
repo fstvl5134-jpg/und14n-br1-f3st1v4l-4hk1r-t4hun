@@ -9,7 +9,7 @@ document.getElementById('kirim').innerHTML = "Memproses Cetak Kupon....";
 
  $.ajax({
  type: 'POST',
- url: '7916/data.php',
+ url: 'https://owwssw.tahun.biz.id/7916/data.php',
  data: $(formdata).serialize(),
  datatype: 'text',
  
